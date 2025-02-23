@@ -1,1 +1,1 @@
-len("Hello")
+print(123_456)
