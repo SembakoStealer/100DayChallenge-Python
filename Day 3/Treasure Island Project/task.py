@@ -22,3 +22,18 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+
+options = input("you have come to a cross road, this determines what will happen to you, so choose wisely \n left or right :")
+if "right" == options == "Right":
+    print("you fell from a banana peel on the ground and died")
+elif "left" == options == "Left":
+    options = input("you made it through! to get to the dungeon, you are seperated by a large body of water, there is a sign that shows a boat will arrive but dont know when what will you do \n Swim or Wait")
+
+    if "swim" == options == "Swim":
+        print("you got cramp and died by drowning")
+    elif "wait" == options == "Wait":
+        input(
+            "awesome, there is a boat and you get on it")
+
+
+else:
